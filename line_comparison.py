@@ -28,8 +28,10 @@ class Linecomparison:
 def check_length(line1, line2):
         if line1 == line2:
             print("both lines are equal")
+        elif line1 > line2 :
+            print("Line1 is greater than line 2")
         else:
-            print("Lines are not equal")
+            print("line2 is greater than line1")
 
 if __name__ == '__main__':
     def draw_lines():
